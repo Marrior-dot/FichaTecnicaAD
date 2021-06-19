@@ -2,6 +2,14 @@ body{
 	margin: 0 auto;
 	padding: 0 auto;
 }
+main{
+	margin: 0 auto;
+	margin-top: 2em;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
 :root{
 	font-size: 17px;
 }
@@ -22,6 +30,15 @@ header h2{
 	margin-bottom: -4rem;
 	margin-top: -2rem;
 	font-size: 2.5rem
+}
+.list{
+	width: 60%;
+	height: 1.2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	font-size: 1.5em;
 }
 #title p::first-letter{
 	font-size: 3rem;
