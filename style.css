@@ -1,8 +1,13 @@
+html{
+	font-size: 62.5%; 
+}
 body{
 	margin: 0 auto;
 	padding: 0 auto;
 	box-sizing: border-box;
+	text-decoration: none;
 	}
+	
 main{
 	margin: 0 auto;
 	width: 100%;
@@ -12,9 +17,6 @@ main{
 	background-image: url("https://www.collinsdictionary.com/images/full/coffeeshop_116612164.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-}
-:root{
-	font-size: 17px;
 }
 header{
 	display: flex;
@@ -48,14 +50,14 @@ fieldset{
 	width: 70%;
 }
 header h2{
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 }
 #title{
 	display: flex;
 	justify-content: space-around;
 	margin-bottom: -4rem;
 	margin-top: -2rem;
-	font-size: 2.5rem
+	font-size: 4rem;
 }
 
 .list{
@@ -68,18 +70,20 @@ header h2{
 	font-size: 1.5em;
 }
 #title p::first-letter{
-	font-size: 3rem;
+	font-size: 5rem;
 }
 #navig{
 	display: flex;
-	font-size: 1.1rem;
-	top: 23%;
+	font-size: 1.8rem;
 	justify-content: space-evenly;
-	padding: auto;
 	background-color: black;
 	width: 70%;
 }
 #navig a{
+	font-size: 1.9rem;
 	color: white;
+	text-decoration: none;
 }
-
+#navig h3{
+	margin: 0;
+}
