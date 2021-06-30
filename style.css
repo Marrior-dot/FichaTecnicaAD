@@ -32,22 +32,23 @@ fieldset legend{
 	text-decoration: underline;
 	text-decoration-thickness: 5% ;
 	padding-bottom: 0.4rem;
-	border-radius: 10px;
+	border-radius: 0.8rem;
 	text-align: center;
 	transform: translateY(-20%);
-	font-size: 2em;
+	font-size: 3rem;
 }
 fieldset{
 	background-color: white;
-	border-radius: 10px;
+	border-radius: 0.8rem;
 	box-shadow:0rem 0rem 3rem 0.1rem #8C8C8C;
+	padding: 0rem 0rem 2rem 0rem;
 	border-style: solid;
 	border-color: black;
 	border-width: 0.02rem;
 	margin: 0 auto;
 	margin-top: 2.5rem;
 	margin-bottom: 2rem;
-	width: 70%;
+	width: 50%;
 }
 header h2{
 	font-size: 2.5rem;
@@ -62,12 +63,13 @@ header h2{
 
 .list{
 	width: 60%;
-	height: 1.2em;
+	height: min(2.5rem, 50%);
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin: 0 auto;
-	font-size: 1.5em;
+	padding: 0 auto;
+	font-size: 2.5em;
 }
 #title p::first-letter{
 	font-size: 5rem;
