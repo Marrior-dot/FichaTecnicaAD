@@ -1,11 +1,10 @@
 html{
 	font-size: 62.5%; 
-	box-sizing: border-box;	
 }
 body{
+	box-sizing: border-box;
 	margin: 0 auto;
 	padding: 0 auto;
-	box-sizing: border-box;
 	text-decoration: none;
 	height: 100vh;
 }
@@ -48,10 +47,8 @@ fieldset{
 	border-color: black;
 	border-width: 0.02rem;
 	padding-bottom: 2rem;
-	margin: 0 auto;
-	margin-top: 2.5rem;
-	margin-bottom: 2rem;
-	width: 80%;
+	margin: 2.5rem auto 2rem auto;
+	width:  min(100rem, 80%);
 }
 header h2{
 	font-size: 2.5rem;
@@ -93,12 +90,11 @@ button.list{
 #navig h3{
 	margin: 0;
 }
-.recipe{
-	width: min(100%);
-}
 .recipe ul{
 	font-size: 1.4em;
+	margin: 0 auto;
 	padding: 0 2rem 0 2rem;
+	width: 80%;
 	list-style-type: none;
 }
 .recipe ul h3{
@@ -110,4 +106,9 @@ button.list{
 	border: solid 0.1rem black;
 	word-break: break-all;
 }
-	
+.recipe img{
+	margin: 0 auto;	
+	width: 100%;
+	grid-area: img;
+
+}	
