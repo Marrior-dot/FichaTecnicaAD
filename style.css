@@ -15,7 +15,7 @@ main{
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	background: url("images/background.svg") no-repeat; 
+	background: url("https://svgshare.com/i/YgF.svg") no-repeat; 
 	background-size: cover;
 }
 header{
