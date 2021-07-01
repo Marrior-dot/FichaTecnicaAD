@@ -15,7 +15,8 @@ main{
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	height: 100vh;
+	background: url("images/background.svg") no-repeat; 
+	background-size: cover;
 }
 header{
 	display: flex;
@@ -45,7 +46,7 @@ fieldset{
 	border-width: 0.02rem;
 	padding-bottom: 2rem;
 	margin: 2.5rem auto 2rem auto;
-	width:  min(100rem, 80%);
+	width:  min(50rem, 80%);
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -63,7 +64,7 @@ header h2{
 }
 
 button.list{
-	width: 40%;
+	width: 60%;
 	height: min(2.5rem, 50%);
 	display: flex;
 	align-items: center;
@@ -107,7 +108,7 @@ button.list{
 	word-break: break-all;
 }
 fieldset img{
-	width: 40%;
+	width: 50%;
 	margin-top: 2rem;
 	border: solid 0.5rem black;
 	border-radius: 0.8rem;
