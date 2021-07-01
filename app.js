@@ -9,7 +9,8 @@ if(lists[0].style.display === "none"){
 	lists[0].style.display = "grid";
 	lists[0].style.gridTemplateColumns = "repeat(auto-fit,minmax(10rem,1fr))";
 	lists[0].style.gridGap = "1rem";
-	lists[0].style.gridTemplateAreas = "a img img a";
+	lists[0].style.marginTop = "1rem";
+	lists[0].style.paddig = "0 1rem";
 	fieldset.style.width = "min(100rem, 80%)";
 }
 else{
