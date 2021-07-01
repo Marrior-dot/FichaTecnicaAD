@@ -42,10 +42,8 @@ fieldset{
 	background-color: white;
 	border-radius: 0.8rem;
 	box-shadow:0rem 0rem 3rem 0.1rem black;
-	border-style: solid;
-	border-color: black;
-	border-width: 0.02rem;
-	padding-bottom: 2rem;
+	border: solid black 0.02rem;
+	padding: 0 3rem 2rem 3rem;
 	margin: 2.5rem auto 2rem auto;
 	width:  min(50rem, 80%);
 	display: flex;
@@ -95,6 +93,7 @@ button.list{
 .recipe ul{
 	font-size: 1.4em;
 	margin: 0 auto;
+	padding: 0 4rem 0 4rem;
 	width: 80%;
 	list-style-type: none;
 }

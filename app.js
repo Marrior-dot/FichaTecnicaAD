@@ -1,7 +1,6 @@
 let tit = document.getElementById("title");
 let activate = document.getElementsByClassName("list");
 let lists = document.getElementsByClassName("recipe");
-let field = document.getElementsByTagName("fieldset");
 
 
 activate[0].addEventListener("click", function(){
@@ -11,7 +10,6 @@ if(lists[0].style.display === "none"){
 	lists[0].style.gridGap = "1rem";
 	lists[0].style.marginTop = "1rem";
 	lists[0].style.paddig = "0 1rem";
-	fieldset.style.width = "min(100rem, 80%)";
 }
 else{
 	lists[0].style.display = "none";
